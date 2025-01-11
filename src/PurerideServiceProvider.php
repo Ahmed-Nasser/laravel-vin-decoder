@@ -8,7 +8,6 @@ class PurerideServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        dd('vin is here');
         // Load routes, views, migrations, etc.
     }
 
