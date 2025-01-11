@@ -18,5 +18,14 @@
     "require": {
         "php": "^8.0",
         "laravel/framework": "^11.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pureride\\Vin\\PurerideServiceProvider"
+            ],
+            "aliases": {}
+        }
     }
 }
