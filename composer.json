@@ -1,0 +1,22 @@
+{
+    "name": "pureride/vin",
+    "type": "library",
+    "description": "A laravel vin number decoder",
+    "autoload": {
+        "psr-4": {
+            "Pureride\\Vin\\": "src/",
+            "Pureride\\Vin\\Enums": "enum/"
+        }
+    },
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Ahmed Abdelnaser",
+            "email": "ahmedeid175@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^11.0"
+    }
+}
