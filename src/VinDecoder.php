@@ -10,7 +10,7 @@ use Pureride\Vin\Enums\Manufacturer;
 /**
  * Vehicle Identification Number
  */
-class Vin implements VinInterface
+class VinDecoder implements VinDecoderInterface
 {
 
     /**
@@ -20,7 +20,7 @@ class Vin implements VinInterface
      *
      * @link https://www.iso.org/standard/52200.html
      */
-    const string REGEX = '/^(?<wmi>[0-9A-HJ-NPR-Z]{3})(?<vds>[0-9A-HJ-NPR-Z]{6})(?<vis>[0-9A-HJ-NPR-Z]{8})$/';
+    const REGEX = '/^(?<wmi>[0-9A-HJ-NPR-Z]{3})(?<vds>[0-9A-HJ-NPR-Z]{6})(?<vis>[0-9A-HJ-NPR-Z]{8})$/';
 
     /**
      * The VIN value

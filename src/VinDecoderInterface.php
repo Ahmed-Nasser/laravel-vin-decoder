@@ -2,7 +2,7 @@
 
 namespace Pureride\Vin;
 
-interface VinInterface
+interface VinDecoderInterface
 {
     /**
      * Gets the VIN
