@@ -5,7 +5,7 @@
     "autoload": {
         "psr-4": {
             "Pureride\\Vin\\": "src/",
-            "Pureride\\Vin\\Enums": "enum/"
+            "Pureride\\Vin\\Enums\\": "enum/"
         }
     },
     "authors": [
